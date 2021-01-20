@@ -1,0 +1,24 @@
+<html>
+ {%load static%}
+ <head>
+  <link rel="stylesheet" href="{%static "css/1.css"%}"/>
+  </head>
+  <body bgcolor="yellow">
+  <center><h1><u>{{name}}'s Favourites</u></h1></center>
+  <div>
+    <h2>Actor:{{actor}}</h2>
+    <h3><a href="https://en.wikipedia.org/wiki/Ranbir_Kapoor">Click Know More</a></h3>
+    <img src="{%static"Ranbir Kapoor.jpeg"%}"/>
+  </div><br>
+    <div>
+    <h2>Animl:{{animal}}</h2>
+    <h3><a href="https://www.akc.org/dog-breeds/german-shepherd-dog/">Click Know More</a></h3>
+    <img src="{%static"german-shepherd.jpeg"%}"/>
+  </div> <br>
+  <div>
+    <h2>Vehicle:{{car}}</h2>
+    <h3><a href="https://www.carwale.com/ferrari-cars/">Click Know More</a></h3>
+    <img src="{%static"ferrari.jpeg"%}"/>
+  </div>
+  </body>
+ </html>
